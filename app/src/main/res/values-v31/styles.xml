@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <!--This mechanism is used to make the default splash screen logo will be not shown for Android 12 above and use the custom
      splash screen instead -->
-    <style name="Base.Theme" parent="android:Theme.Material.Light.NoActionBar" />
-
     <style name="Theme.FootballMoney" parent="Base.Theme">
-
+        <item name="android:windowSplashScreenAnimatedIcon">@android:color/transparent</item>
+        <item name="android:windowSplashScreenAnimationDuration">0</item>
     </style>
 </resources>
